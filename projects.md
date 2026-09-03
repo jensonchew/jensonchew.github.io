@@ -9,12 +9,12 @@ permalink: /projects/
 Open-source and public work.
 
 {% for project in site.data.projects %}
-## [{{ project.name }}]({{ project.url }})
+## [{{ project.name }}]({{ project.url | relative_url }})
 
 {{ project.blurb }}
 
 {% if project.tags %}*Tags: {{ project.tags | join: ", " }}*{% endif %}
 
-[Project page]({{ project.url }}) · [GitHub]({{ project.repo }})
+[Project page]({{ project.url | relative_url }}) · [GitHub]({{ project.repo }})
 
 {% endfor %}

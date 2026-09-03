@@ -16,10 +16,10 @@ AI engineering and agentic systems — building governed workflows for developme
 
 {% assign featured = site.data.projects | where: "featured", true %}
 {% for project in featured %}
-### [{{ project.name }}]({{ project.url }})
+### [{{ project.name }}]({{ project.url | relative_url }})
 {{ project.blurb }}
 
-[View project]({{ project.url }}) · [Repository]({{ project.repo }})
+[View project]({{ project.url | relative_url }}) · [Repository]({{ project.repo }})
 {% endfor %}
 
 See all [projects]({{ '/projects' | relative_url }}).
