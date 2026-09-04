@@ -35,7 +35,7 @@ tags:
 |-----|-----|
 | **OpenCode** | Full orchestrator wiring via `opencode.json` + `/setup` |
 | **Cursor** | `AGENTS.md` + thin `.cursor/rules/` pointers to `.agents/` |
-| **Zed** | `AGENTS.md` auto-loaded; phased threads per role |
+| **Zed** | `AGENTS.md` auto-loaded; [zed quickstart](https://github.com/jensonchew/agentic-dev-governance-template/blob/master/docs/examples/zed-quickstart.md) |
 | **VS Code** | Workspace instructions → `AGENTS.md` + role files |
 
 ## Who it's for
