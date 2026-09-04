@@ -2,10 +2,11 @@
   name: Agentic Dev Governance Template
   url: /projects/agentic-dev-governance/
   repo: https://github.com/jensonchew/agentic-dev-governance-template
-  blurb: OpenCode multi-agent dev/delivery harness — fork for your stack.
+  blurb: IDE-agnostic multi-agent dev/delivery harness — OpenCode, Cursor, Zed, VS Code.
   featured: true
   tags:
     - open-source
-    - opencode
     - agents
     - governance
+    - cursor
+    - zed

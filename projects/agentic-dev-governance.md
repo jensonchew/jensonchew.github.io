@@ -2,44 +2,56 @@
 layout: page
 title: Agentic Dev Governance Template
 permalink: /projects/agentic-dev-governance/
-description: OpenCode starter for orchestrator-led development and delivery workflows.
+description: IDE-agnostic governance template for orchestrator-led development and delivery workflows.
 repo: https://github.com/jensonchew/agentic-dev-governance-template
 tags:
   - open-source
-  - opencode
   - agents
+  - governance
+  - cursor
+  - zed
 ---
 
 # Agentic Dev Governance Template
 
-Stack-agnostic **OpenCode governance template** for orchestrator-led development and delivery workflows.
+**IDE-agnostic** governance template for orchestrator-led development and delivery — works with **OpenCode**, **Cursor**, **Zed**, and **VS Code**.
 
-**[Use this template on GitHub](https://github.com/jensonchew/agentic-dev-governance-template/generate)** · [Repository](https://github.com/jensonchew/agentic-dev-governance-template)
+**[Use this template on GitHub](https://github.com/jensonchew/agentic-dev-governance-template/generate)** · [Repository](https://github.com/jensonchew/agentic-dev-governance-template) · [IDE adapters](https://github.com/jensonchew/agentic-dev-governance-template/blob/master/docs/IDE_ADAPTERS.md)
 
 ## What you get
 
 - Multi-agent governance in `AGENTS.md` with development and delivery charters
-- **Development flow:** context mapping → design analysis → spec writing → implementation → review
-- **Delivery flow:** pipeline review, platform evaluation, security, observability
+- **Portable role packs** in `.agents/roles/` — same files across IDEs
+- Development flow: context mapping → design analysis → spec writing → implementation → review
+- Delivery flow: pipeline review, platform evaluation, security, observability
 - Spec-before-implement for non-trivial changes
-- Reusable skills in `.agents/skills/` and OpenCode skills in `.opencode/skills/`
-- `/setup` command to generate stack-specific rules for your repo
-- Just-in-time context loading — agents load only what the current task requires
+- Reusable skills in `.agents/skills/` (agent-agnostic)
+- OpenCode runtime wiring in `opencode.json` + `.opencode/skills/` (optional)
+- `/setup` in OpenCode to generate stack-specific rules
+
+## IDE support
+
+| IDE | How |
+|-----|-----|
+| **OpenCode** | Full orchestrator wiring via `opencode.json` + `/setup` |
+| **Cursor** | `AGENTS.md` + thin `.cursor/rules/` pointers to `.agents/` |
+| **Zed** | `AGENTS.md` auto-loaded; phased threads per role |
+| **VS Code** | Workspace instructions → `AGENTS.md` + role files |
 
 ## Who it's for
 
-Teams or solo developers using **Cursor, OpenCode, or Zed** who want phased agent workflows with role separation, without building governance from scratch.
+Teams or solo developers using any major AI-enabled editor who want phased agent workflows with role separation, without building governance from scratch.
 
 ## What it's not
 
-This template covers **how to build software with agents**. It is not a personal AI assistant, Telegram bot, or production runtime governance stack. I use a similar pattern in a private assistant monorepo; this repo is the portable, forkable extract.
+This template covers **how to build software with agents**. It is not a personal AI assistant, Telegram bot, or production runtime governance stack. OpenCode files are convenience adapters — the governance model is not locked to one IDE.
 
 ## Quick start
 
 1. Click **Use this template** on GitHub.
-2. Open the repo in OpenCode and run `/setup` with your stack description.
-3. Review generated `REPOSITORY-CONTEXT.md` and `.agents/instructions-stack.md`.
-4. Use the development orchestrator for non-trivial work.
+2. Read `AGENTS.md` and `docs/IDE_ADAPTERS.md` for your editor.
+3. Customize `REPOSITORY-CONTEXT.md` (or run `/setup` in OpenCode).
+4. Use phased workflows from `.agents/roles/` for non-trivial work.
 
 ## License
 
