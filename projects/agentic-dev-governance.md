@@ -16,7 +16,7 @@ tags:
 
 **IDE-agnostic** governance template for orchestrator-led development and delivery — works with **OpenCode**, **Cursor**, **Zed**, and **VS Code**.
 
-**[Use this template on GitHub](https://github.com/jensonchew/agentic-dev-governance-template/generate)** · [Repository](https://github.com/jensonchew/agentic-dev-governance-template) · [IDE adapters](https://github.com/jensonchew/agentic-dev-governance-template/blob/master/docs/IDE_ADAPTERS.md)
+**[Use this template on GitHub](https://github.com/jensonchew/agentic-dev-governance-template/generate)** · [Repository](https://github.com/jensonchew/agentic-dev-governance-template) · [IDE adapters](https://github.com/jensonchew/agentic-dev-governance-template/blob/master/docs/IDE_ADAPTERS.md) · [Zed quickstart](https://github.com/jensonchew/agentic-dev-governance-template/blob/master/docs/examples/zed-quickstart.md)
 
 ## What you get
 
