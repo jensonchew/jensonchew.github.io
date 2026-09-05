@@ -13,8 +13,7 @@ header_pages:
   - projects.md
   - blog.md
 
-author:
-  name: Jenson Chew
+author: Jenson Chew
 
 minima:
   social_links:
