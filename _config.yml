@@ -21,3 +21,5 @@ minima:
       user_url: https://github.com/jensonchew
     - platform: linkedin
       user_url: https://www.linkedin.com/in/ming-yong-chew/
+    - platform: rss
+      user_url: https://jensonchew.substack.com/feed

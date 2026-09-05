@@ -11,6 +11,7 @@ AI engineering and agentic systems — building governed workflows for developme
 
 - [GitHub](https://github.com/jensonchew)
 - [LinkedIn](https://www.linkedin.com/in/ming-yong-chew/)
+- [Substack](https://jensonchew.substack.com)
 
 ## Featured projects
 
@@ -26,4 +27,4 @@ See all [projects]({{ '/projects' | relative_url }}).
 
 ## Blog
 
-Posts coming soon. See the [blog]({{ '/blog' | relative_url }}) page for updates.
+Latest on the [blog]({{ '/blog' | relative_url }}): open-sourcing the agentic dev governance template and cross-links to longer reads on Substack.
