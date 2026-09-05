@@ -53,4 +53,4 @@ If you already read my runtime governance pieces, treat this as the **engineerin
 
 *Also on [LinkedIn](https://www.linkedin.com/pulse/open-sourcing-my-agentic-dev-governance-template-personal-chew-v2llf/).*
 
-*Coming on Substack: **Engineering Trust: The Governance Pillars of Agentic Workflows in the Public Sector** — the policy and assurance layer behind this harness.*
+*Longer read on Substack: [Engineering Trust — governance pillars for agentic workflows in the public sector](https://jensonchew.substack.com/p/engineering-trust-the-governance).*
