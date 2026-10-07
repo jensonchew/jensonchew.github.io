@@ -15,11 +15,17 @@ header_pages:
 
 author: Jenson Chew
 
+# GitHub Pages enables jekyll-optional-front-matter, which would render
+# front-matter-less Markdown (including assets/downloads/*.md) as HTML.
+# Leave it off so those files are copied through as raw downloads.
+optional_front_matter:
+  enabled: false
+
 minima:
   social_links:
     - platform: github
       user_url: https://github.com/jensonchew
     - platform: linkedin
-      user_url: https://www.linkedin.com/in/ming-yong-chew/
+      user_url: https://www.linkedin.com/in/jensonchew/
     - platform: rss
       user_url: https://jensonchew.substack.com/feed
