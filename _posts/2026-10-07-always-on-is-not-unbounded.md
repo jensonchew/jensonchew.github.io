@@ -143,5 +143,5 @@ Always-on is fine. Unbounded is not.
 
 ## Related reads
 
-- [Substack version](https://jensonchew.substack.com)
+- [Same essay on Substack](https://jensonchew.substack.com/p/always-on-is-not-unbounded)
 - [Agentic dev governance template](https://github.com/jensonchew/agentic-dev-governance-template)
