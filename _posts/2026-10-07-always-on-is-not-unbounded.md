@@ -144,5 +144,4 @@ Always-on is fine. Unbounded is not.
 ## Related reads
 
 - [Substack version](https://jensonchew.substack.com)
-- [LinkedIn version](https://www.linkedin.com/in/jensonchew/recent-activity/articles/)
 - [Agentic dev governance template](https://github.com/jensonchew/agentic-dev-governance-template)
