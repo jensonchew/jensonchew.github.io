@@ -10,7 +10,7 @@ AI engineering and agentic systems — building governed workflows for developme
 ## Links
 
 - [GitHub](https://github.com/jensonchew)
-- [LinkedIn](https://www.linkedin.com/in/ming-yong-chew/)
+- [LinkedIn](https://www.linkedin.com/in/jensonchew/)
 - [Substack](https://jensonchew.substack.com)
 
 ## Featured projects

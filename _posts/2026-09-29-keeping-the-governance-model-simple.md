@@ -86,6 +86,6 @@ https://github.com/jensonchew/agentic-dev-governance-template
 ## Related reads
 
 - [Substack version](https://jensonchew.substack.com)
-- [LinkedIn version](https://www.linkedin.com/in/ming-yong-chew/recent-activity/articles/)
+- [LinkedIn version](https://www.linkedin.com/in/jensonchew/recent-activity/articles/)
 
 I’ll keep refining the template over time, but the direction is clear: use the smallest structure that still makes the work understandable and safe.

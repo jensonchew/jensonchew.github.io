@@ -17,7 +17,7 @@ Today I'm open-sourcing a different layer: the **development governance template
 
 | Layer | What it is | Where |
 |-------|------------|--------|
-| **Runtime governance** | Audit logs, circuit breakers, injection gates on a running assistant | Private product code + [prior Pulse articles](https://www.linkedin.com/in/ming-yong-chew/recent-activity/articles/) |
+| **Runtime governance** | Audit logs, circuit breakers, injection gates on a running assistant | Private product code + [prior Pulse articles](https://www.linkedin.com/in/jensonchew/recent-activity/articles/) |
 | **Dev governance** | Orchestrator-led dev/delivery, spec-before-implement, role separation | **[Public template](https://github.com/jensonchew/agentic-dev-governance-template)** |
 
 ## What the template gives you

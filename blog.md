@@ -12,4 +12,4 @@ Notes on agentic engineering, governance, and open source.
 - [{{ post.title }}]({{ post.url | relative_url }}) — {{ post.date | date: "%-d %b %Y" }}
 {% endfor %}
 
-More on [LinkedIn](https://www.linkedin.com/in/ming-yong-chew/recent-activity/articles/).
+More on [LinkedIn](https://www.linkedin.com/in/jensonchew/recent-activity/articles/).
