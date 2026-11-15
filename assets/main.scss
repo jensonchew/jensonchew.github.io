@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap");
 @import "minima";
 
 :root {
@@ -14,8 +14,8 @@
   --accent: #0b6e6a;
   --accent-hover: #085550;
   --rule: #e0e0dc;
-  /* Archivo (Bloss0m-like heads) + Source Sans 3 (Scale/AI Hero readable body) */
-  --font-display: "Archivo", "Avenir Next", "Segoe UI", sans-serif;
+  /* One family sitewide — Archivo's display J reads oddly at hero size. */
+  --font-display: "Source Sans 3", "Avenir Next", "Segoe UI", sans-serif;
   --font-body: "Source Sans 3", "Avenir Next", "Segoe UI", sans-serif;
   --font-ui: "Source Sans 3", "Avenir Next", "Segoe UI", sans-serif;
   --max: 42rem;
@@ -116,10 +116,13 @@ a:focus {
   font-weight: 700;
   font-size: clamp(2.5rem, 5vw, 3.75rem);
   line-height: 1.08;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.025em;
   margin: 0 0 1.15rem;
   color: var(--ink);
   max-width: 20ch;
+  /* Keep capitals on the same optical line (avoids odd J descender clash). */
+  font-feature-settings: "kern" 1;
+  font-variant-ligatures: common-ligatures;
 }
 
 .home-hero__lede {
