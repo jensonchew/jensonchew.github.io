@@ -56,20 +56,7 @@ A prompt that says "do not do that" is a backstop. It is not the control.
 - [EU AI Act implementation timeline](https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
 - Earlier notes: [Your AI Second Brain Has No Governance Layer](https://www.linkedin.com/pulse/your-ai-second-brain-has-governance-layer-heres-how-fix-chew-1zofc) and [From Design Spec to Runtime](https://www.linkedin.com/pulse/from-design-spec-runtime-auditing-my-own-ai-governance-ming-yong-chew-klbhc/)
 
+## Related reads
 
-<!--
-LinkedIn feed paste. Not part of the rendered page if this HTML comment survives promotion.
-Delete this comment before moving the file to _posts if you do not want it in the source.
+- [Same essay on Substack](https://jensonchew.substack.com/p/telling-an-agent-what-to-do-is-not)
 
-Singapore spent this year turning "agentic AI" from a slide into a set of documents: a May/June update of IMDA's Model AI Governance Framework, CSA's June addendum on securing agents, and an October testing starter kit, plus the first five firms accredited to test generative AI for specific risks. The ministerial line is still voluntary. The sentence I keep is from October: we cannot rely on simply telling agents what to do.
-
-That matches what I have shipped on Chippie, and what I have left out. Confirm before a skill or memory write, a pause switch, an append-only session audit, and since September a live-chat injection gate and a spend budget. The coding workflow is a separate layer. I am not claiming an AI Verify certificate or IMDA or CSA compliance.
-
-The news this month is why the distinction matters. SPH Media reported cyberattacks detected 4–8 November and said it cannot confirm they were AI-enabled. Nvidia's chief executive was reported to have resigned while export-control questions are investigated. I am not treating those allegations as findings.
-
-If you run a personal agent, the first control is structural. Do not give it the tool. Do not save the memory until a person confirms. Say, in the product, that it is an agent and what it can see.
-
-Full note (draft, not live until this file moves to _posts): https://github.com/jensonchew/jensonchew.github.io/blob/main/_drafts/2026-11-14-structural-controls-for-a-personal-agent.md
-
-#AIGovernance #AgenticAI #BuildInPublic
--->
