@@ -5,7 +5,6 @@ date: 2026-11-14 16:00:00 +0800
 categories: [governance, agentic-ai]
 tags: [ai-governance, imda, csa, aiverify, chippie, build-in-public]
 excerpt: "Singapore's 2026 agentic guidance, what I have actually shipped on a self-hosted assistant, and what I will not claim."
-published: false
 ---
 
 Singapore spent this year turning "agentic AI" from a slide into a set of documents. IMDA updated the Model AI Governance Framework for Agentic AI in May and June. CSA published an addendum on securing agents in June, with a coding assistant as one of the worked examples. In October, IMDA issued a starter kit for testing agentic systems, and the AI Verify Foundation named the first five firms accredited to test generative AI for specific risks.
@@ -57,7 +56,6 @@ A prompt that says "do not do that" is a backstop. It is not the control.
 - [EU AI Act implementation timeline](https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
 - Earlier notes: [Your AI Second Brain Has No Governance Layer](https://www.linkedin.com/pulse/your-ai-second-brain-has-governance-layer-heres-how-fix-chew-1zofc) and [From Design Spec to Runtime](https://www.linkedin.com/pulse/from-design-spec-runtime-auditing-my-own-ai-governance-ming-yong-chew-klbhc/)
 
-<!-- Promote notes (not rendered): move this file to _posts/, drop published:false, then paste Substack/LinkedIn/X from Chippie repo docs/agent-knowledge/pending/social-drafts/2026-11-15-structural-controls-pack.md. Add Substack cross-link after that post goes live. -->
 
 <!--
 LinkedIn feed paste. Not part of the rendered page if this HTML comment survives promotion.
