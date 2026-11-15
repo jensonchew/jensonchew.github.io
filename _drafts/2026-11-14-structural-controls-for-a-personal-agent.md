@@ -57,6 +57,8 @@ A prompt that says "do not do that" is a backstop. It is not the control.
 - [EU AI Act implementation timeline](https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
 - Earlier notes: [Your AI Second Brain Has No Governance Layer](https://www.linkedin.com/pulse/your-ai-second-brain-has-governance-layer-heres-how-fix-chew-1zofc) and [From Design Spec to Runtime](https://www.linkedin.com/pulse/from-design-spec-runtime-auditing-my-own-ai-governance-ming-yong-chew-klbhc/)
 
+<!-- Promote notes (not rendered): move this file to _posts/, drop published:false, then paste Substack/LinkedIn/X from Chippie repo docs/agent-knowledge/pending/social-drafts/2026-11-15-structural-controls-pack.md. Add Substack cross-link after that post goes live. -->
+
 <!--
 LinkedIn feed paste. Not part of the rendered page if this HTML comment survives promotion.
 Delete this comment before moving the file to _posts if you do not want it in the source.
